@@ -1,2 +1,49 @@
-.BookNow_row{height:700px;background-repeat:no-repeat;background-size:cover}.BookNow_row .BookNow_container{width:1110px;margin:0 auto}.BookNow_row .BookNow_container .BookNow_contentBox{width:540px;height:370px;opacity:0.9;background-color:#232323;display:block;margin-top:230px;padding:50px 30px;-webkit-box-sizing:border-box;box-sizing:border-box}.BookNow_row .BookNow_container .BookNow_contentBox span{display:block;margin-bottom:20px}.BookNow_row .BookNow_container .BookNow_contentBox .BookNow_SpanCountry{color:#e8e8e8;font-size:20px}.BookNow_row .BookNow_container .BookNow_contentBox .BookNow_SpanTitle{color:#fefefe;font-size:20px;text-transform:uppercase;letter-spacing:0.075px}.BookNow_row .BookNow_container .BookNow_contentBox .BookNow_SpanContent{color:#e8e8e8;font-size:16px;margin:0}.BookNow_row .BookNow_container .BookNow_contentBox .BookNow_layout{max-height:60px;width:100%;min-height:45px}.BookNow_row__first{background-image:url("../img/BookNowBgi_2.jpg")}.BookNow_row__first .BookNow_contentBox{float:left}.BookNow_row__secondary{background-image:url("../img/BookNowBgi_1.jpg")}.BookNow_row__secondary .BookNow_contentBox{float:right}
+.BookNow .BookNow_row {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .BookNow .BookNow_row .BookNow_container {
+    width: 1110px;
+    margin: 0 auto; }
+    .BookNow .BookNow_row .BookNow_container .BookNow_contentBox {
+      width: 540px;
+      min-height: 370px;
+      opacity: 0.9;
+      background-color: #232323;
+      display: block;
+      margin-top: 230px;
+      padding: 50px 30px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .BookNow .BookNow_row .BookNow_container .BookNow_contentBox span {
+        display: block;
+        margin-bottom: 20px; }
+      .BookNow .BookNow_row .BookNow_container .BookNow_contentBox .BookNow_SpanCountry {
+        color: #e8e8e8;
+        font-size: 20px; }
+      .BookNow .BookNow_row .BookNow_container .BookNow_contentBox .BookNow_SpanTitle {
+        color: #fefefe;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.075px;
+        margin-bottom: 20px; }
+      .BookNow .BookNow_row .BookNow_container .BookNow_contentBox .BookNow_SpanContent {
+        color: #e8e8e8;
+        font-size: 16px;
+        margin: 0; }
+      .BookNow .BookNow_row .BookNow_container .BookNow_contentBox .BookNow_layout {
+        max-height: 60px;
+        width: 100%;
+        min-height: 45px; }
+.BookNow .BookNow_row__first {
+  background-image: url("../img/BookNowBgi_2.jpg"); }
+  .BookNow .BookNow_row__first .BookNow_contentBox {
+    float: left; }
+.BookNow .BookNow_row__secondary {
+  background-image: url("../img/BookNowBgi_1.jpg"); }
+  .BookNow .BookNow_row__secondary .BookNow_contentBox {
+    float: right; }
+
+
+
 /*# sourceMappingURL=BookNow.css.map */

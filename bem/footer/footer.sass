@@ -1,32 +1,37 @@
+@import '../../style/sass/mixins.sass'
+
 .footer
     height: 268px
-    background-color: #232323
-    .footer_Container
+    background-color: $opacityBlack
+    &_Container
         width: 1110px
         margin: 0 auto
         text-align: center
         display: flex
         justify-content: center
         flex-direction: column
-        a 
+    &_soc-button 
             margin-right: 20px
-            color: #e8e8e8
+            color: $Grey
             font-size: 16px
+            &:hover 
+                color: $lightBlue
             &:last-child
                 margin: 0
-        .footer_textBox
+    &_text-Box
             color: white
-            font-family: Josefin Sans
+            font-family: $JosefinSans
             margin-top: 115px
             span 
                 display: block
                 margin-bottom: 20px
                 font-size: 16px
-            .footer_tittle
-                font-size: 24px
-                text-transform: uppercase
-                letter-spacing: 1.4px
-                margin: 0
+            & .footer_tittle
+                    font-size: 24px
+                    text-transform: uppercase
+                    letter-spacing: 1.4px
+                    margin: 0
+
 
 
 

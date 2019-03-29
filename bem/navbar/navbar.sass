@@ -1,7 +1,9 @@
+@import '../../style/sass/mixins.sass'
+
 .navbar
     height: 80px
     width: 100%
-    background-color: #5474fd
+    background-color: $lightBlue
     position: sticky
     top: 0
     z-index: 10000
@@ -13,14 +15,14 @@
         flex-direction: row
         align-items: center
         justify-content: space-between
-        font-family: AleoRegular
+        font-family: $AleoRegular
         font-weight: 400
         line-height: 26px
         text-transform: uppercase
         span
             font-size: 24px
             font-weight: 700
-            font-family: Josefin Sans
+            font-family: $JosefinSans
         ul
             font-size: 14px
             list-style-type: none
@@ -31,5 +33,5 @@
                     text-decoration: underline
                     cursor: pointer
                 a 
-                    color: #fff
+                    color: $white
                     text-decoration: none

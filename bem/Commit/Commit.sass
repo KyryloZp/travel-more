@@ -1,3 +1,5 @@
+@import '../../style/sass/mixins.sass'
+
 .Commit
     height: 731px
     background-image: url("../img/CommitBgi.jpg")
@@ -14,7 +16,7 @@
         .Commit_BoxContent 
             width: 100%
             height: 284px
-            background-color: #333
+            background-color: $dirtyGray
             img 
                 float: left
                 width: 445px
@@ -24,11 +26,11 @@
                 float: right
                 margin: 50px 40px 0 0
                 i
-                    color: #5474fd
+                    color: $lightBlue
                     font-size: 36px
                 span    
-                    color: #e8e8e8
-                    font-family: AleoRegular
+                    color: $Grey
+                    font-family: $AleoRegular
                     font-size: 16px
                     margin-top: 25px
                     display: block
