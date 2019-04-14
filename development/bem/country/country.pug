@@ -1,0 +1,13 @@
+include ../button/button.pug
+
+mixin country(first_title, second_title, p_text, container_name)
+	section(class="country layout", class=container_name,)
+		.country_container.layout_container
+			div(class= "country_content-container")
+				.country_title
+					h4.h4= first_title
+				.country_title__secondary
+					h4.h4__uppercase= second_title
+				p.country_p.general-text-style= p_text
+				.country_button
+					+button("button", "Book Now", "submit", "explore-send")

@@ -1,0 +1,29 @@
+.font(@font-name, @font-type, @weight, @style) {
+    font-family: '@{font-name}-@{font-type}';
+   src: url('fonts/@{font-name}/@{font-type}/@{font-name}-@{font-type}-webfont.eot');
+   src: url('fonts/@{font-name}/@{font-type}/@{font-name}-@{font-type}-webfont.eot?#iefix') format('embedded-opentype'),
+   url('fonts/@{font-name}/@{font-type}/@{font-name}-@{font-type}-webfont.woff') format('woff'),
+   url('fonts/@{font-name}/@{font-type}/@{font-name}-@{font-type}-webfont.ttf') format('truetype'),
+   url('fonts/@{font-name}/@{font-type}/@{font-name}-@{font-type}-webfont.svg') format('svg');
+   font-weight: @weight;
+   font-style: @style;
+}
+
+@font-face {
+    .font(Aleo, Regular, normal, normal)
+}
+@font-face {
+    .font(Aleo, Regular-Italic, normal, italic)
+}
+@font-face {
+    .font(Aleo, Bold, bold, normal)
+}
+@font-face {
+    .font(Aleo, Bold-Italic, bold, italic)
+}
+@font-face {
+    .font(Aleo, Light, lighter, normal)
+}
+@font-face {
+    .font(Aleo, Light-Italic, lighter, italic)
+}

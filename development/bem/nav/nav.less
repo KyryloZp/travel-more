@@ -1,0 +1,35 @@
+.nav {
+    background: #5474fd;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    &_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 0 25px;
+    }
+    &_logo-title {
+        letter-spacing: 0.1em;
+    }
+    &_link {
+        display: inline-block;
+        position: relative;
+        margin-right: 38px;
+        font-family: Aleo-Regular, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: inherit;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}

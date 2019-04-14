@@ -1,0 +1,31 @@
+include bem/header/header.pug
+include bem/nav/nav.pug
+include bem/button/button.pug
+include bem/choose-us/choose-us.pug
+include bem/work-algorithm/work-algorithm.pug
+include bem/country/country.pug
+include bem/commit/commit.pug
+include bem/footer/footer.pug
+
+
+<!DOCTYPE html>
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title Web-Design
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css")
+        link(rel="stylesheet" href="https://use.typekit.net/xfx0rxq.css")
+        link(rel="stylesheet", href="fonts.css")
+        link(rel="stylesheet" href="lib/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/pe-icon-7-stroke.css")
+        link(rel='stylesheet', href='lib/font-awesome/css/font-awesome.css')
+        link(rel="stylesheet", href="style.css")
+
+    body
+        +header()
+        +nav("Bhromaon", "Who We Are", "What We Do", "Travel With Us", "Contact Us")
+        +Choose-Us()
+        +work-algorithm()
+        +country("Spain", "Grand Spain Madrid", "But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system", "")
+        +country("Spain", "Grand Spain Madrid", "But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system", "country__right")
+        +commit()
+        +footer()

@@ -1,0 +1,19 @@
+include ../search/search.pug
+include ../nav/nav.pug
+
+mixin header()
+    header.header.layout
+        .header_container.layout_container
+            .header_content-box
+                .header_title
+                    h1.h1 
+                        |Bhromaon
+                    p.header_title__p 
+                        |Safe Travel Anywhere
+                +search()
+                .header_scroll
+                    p.header_scroll-text 
+                        | Scroll Down
+                    <i class="pe-7s-angle-down header_scroll__icon"></i>
+
+

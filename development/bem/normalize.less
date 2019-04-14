@@ -1,0 +1,52 @@
+.text_style(@font, @size, @weight, @height, @style, @spacing) {
+    font-family: @font, sans-serif;
+    font-size: @size;
+    font-weight: @weight;
+    line-height: @height;
+    font-style: @style;
+    letter-spacing: @spacing;
+}
+
+.h1,
+.h1__uppercase {
+    .text_style(josefin-sans, 48px, 700, 1, normal, 0.1em);
+}
+.h2,
+.h2__uppercase {
+    .text_style("Aleo-Regular", 36px, 400, 1, normal, 1);
+}
+.h3,
+.h3__uppercase {
+    .text_style(josefin-sans, 24px, 700, 26px, normal, 1);
+}
+.h4,
+.h4__uppercase {
+    .text_style(josefin-sans, 20px, 400, 26px, normal, 1);
+}
+
+.h1__uppercase,
+.h2__uppercase,
+.h3__uppercase,
+.h4__uppercase {
+    text-transform: uppercase;
+}
+
+.layout {
+    min-width: 1110px;
+    &_container {
+        width: 1110px;
+        margin: 0 auto;
+    }
+}
+
+.general-text-style {
+    .text_style(josefin-sans, 16px, 400, 26px, normal, 1);
+}
+
+.background-img(@file-name) {
+    background-image: url("img/@{file-name}.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

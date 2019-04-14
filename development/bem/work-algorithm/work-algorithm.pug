@@ -1,0 +1,11 @@
+mixin work-algorithm_block(advantages_content__title, icon_class)
+        .work-algorithm_content
+                i(class= icon_class, class='work-algorithm_icon')
+                h2.h2= advantages_content__title
+
+mixin work-algorithm()
+    section.work-algorithm.layout
+        .work-algorithm_container.layout_container
+            +work-algorithm_block('Search Places', 'pe-7s-search')
+            +work-algorithm_block('Select Places', 'pe-7s-check')
+            +work-algorithm_block('Book & Enjoy', 'pe-7s-like2')

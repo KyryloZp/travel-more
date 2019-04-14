@@ -1,0 +1,8 @@
+mixin button(button_class, button_content, button_type, button_value, button_icon)
+	button(class= button_class, type= button_type, value= button_value, id= button_class)
+		if (button_icon)
+			p(class='button_search-text')= button_content
+			i(class= button_icon, class= "button_icon")
+		else 
+			= button_content
+		

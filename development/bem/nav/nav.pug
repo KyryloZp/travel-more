@@ -1,0 +1,10 @@
+mixin nav(logo_text, ...nav_paragraph)
+	nav.nav.layout
+		.nav_container.layout_container
+			.nav_logo-title
+				h3.h3__uppercase= logo_text
+			ul.nav_list
+				each val in nav_paragraph
+					a(class= "nav_link", href = '#')
+						li= val
+

@@ -1,0 +1,8 @@
+include ../button/button.pug
+
+mixin search()
+	.search
+		form.search_form
+			<input type="search" id="search_area" class="search_area" name="search_content" placeholder="Search Your Travel Destination" minlength="3" maxlength="255" required pattern="^[a-zA-Zа-яА-ЯёЁ]+$">
+			+button("button__search", "search", "submit", "Найти", "pe-7s-search")
+			

@@ -1,0 +1,36 @@
+.commit {
+    .background-img(CommitBgi);
+    &_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &_title {
+        margin: 120px 0 100px;
+        color: white;
+    }
+    &_content {
+        display: grid;
+        grid-template-columns: 450px 1fr;
+        grid-gap: 60px;
+        background: #333;
+        min-height: 285px;
+        margin-bottom: 200px;
+        color: #e8e8e8;
+    }
+    &_title__author {
+        color: #fefefe;
+        margin-bottom: 30px;
+    }
+    &_text_icon{
+        color: #5474fd;
+        font-size: 36px;
+    }
+    &_coloumn_left {
+        padding: 50px 50px 50px 0;
+    }
+    &_img {
+        height: 100%;
+        width: 445px;
+    }
+}

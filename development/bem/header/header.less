@@ -1,0 +1,40 @@
+.header {
+    .background-img(HeaderBgi);
+    &_container{
+        min-height: 420px;
+        height: calc(100vh - 81px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &_content-box{
+        margin: auto;
+    }
+    &_title {
+        font-family: josefin-sans, sans-serif;
+        text-align: center;
+        color: white;
+        margin-bottom: 50px;
+        &__p{
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.31em;
+        } 
+    }
+    &_scroll {
+        margin-top: 120px;
+        opacity: 0.6;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        &__text {
+            font-family: josefin-sans, sans-serif;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        &__icon {
+            line-height: bold;
+        }
+    }
+}
